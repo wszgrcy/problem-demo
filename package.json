@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./src/main.ts"
+    "start": "ts-node ./src/typeorm-main.ts",
+    "start:pg": "ts-node ./src/pg-main.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pg": "^8.11.3",
+    "typeorm": "^0.3.17"
   },
   "devDependencies": {
     "@types/node": "^20.5.0",
+    "@types/pg": "^8.10.2",
     "ts-node": "^10.9.1"
   }
 }
